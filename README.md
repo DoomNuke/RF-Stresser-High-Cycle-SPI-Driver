@@ -25,5 +25,19 @@ using FreeRTOS vTaskDelay.
 
 -----------------------------------------------
 
+
+The code sits under:
+
+
+destroyer_headers/T-Beam_config.h -> Holds all of the configuration headers and function declarations
+destroyer_source/T-Beam_config.c -> just some more init stuff for SPI driver. (cool stuff)
+destroyer_source/destroyer_main.cpp -> Holds all of the logic, almost each line has an explanation of what it does exactly.
+main/main.c -> Just holds the main loop where the code is ran from.
+
+
+-----------------------------------------------
+
 The code is written in C.
 
+
+More to come soon :)
